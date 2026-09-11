@@ -34,7 +34,7 @@ jobs:
 
       - name: 6. بناء وتصدير ملف الـ APK
         run: |
-          flet build apk app/main_app.py --app-name baqiyat_salihat
+          flet build apk app/main_app.py
 
       - name: 7. رفع وحفظ ملف الـ APK الجاهز
         uses: actions/upload-artifact@v4
